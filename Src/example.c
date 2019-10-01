@@ -5,9 +5,6 @@
 // This example does the same function as the "basic" example, but demonstrates how easy it is
 // to use the Notecard libraries to construct JSON commands and also to extract responses.
 //
-// Using the Notecard library, you can also easily set up your Arduino environment to "watch"
-// JSON request and response traffic going to/from the Notecard on your Arduino debug port.
-//
 // Note that by using the Notecard library, it is also quite easy to connect the Notecard to
 // a Microcontroller's I2C ports (SDA and SCL) rather than using Serial, in case there is no
 // unused serial port available to use for the Notecard.
