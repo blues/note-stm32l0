@@ -3,7 +3,7 @@
 This is an example of how to use the Notecard and the [note-c][note-c] library
 with the native STM32 SDK.
 
-The board that I used for testing is the [Nucleo-L035R8][board] kit with STM32L053R8 MCU.  This board
+The board that I used for testing is the [Nucleo-L053R8][board] kit with STM32L053R8 MCU.  This board
 was selected because of its minimalism and the fact that it has an integrated debug probe.
 
 As a proof-of-concept, it implements the same functions as the [note-arduino][note-arduino] library's JSON
