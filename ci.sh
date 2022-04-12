@@ -3,7 +3,6 @@
 # echo commands
 set -x
 
-STM32CUBEIDE_BUILD_TARGET=Debug
 
 
 # This is generic (so why not put in the docker image?)
