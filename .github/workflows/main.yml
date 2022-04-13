@@ -5,7 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     name: CI job for stm32
     steps:
-    - uses: actions/checkout@v2
+    - name: checkout code
+      uses: actions/checkout@v2
     - name: CI action step for stm32
       id: stm32ci
       uses: milesfrain/stm32-action@v0.5
